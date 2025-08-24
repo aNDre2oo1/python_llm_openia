@@ -1,0 +1,22 @@
+[project]
+name = "python-llm-openia"
+version = "3.12.9"
+description = "Basicly preject integration OpenIa LLM with python"
+authors = [
+    {name = "Andre Souza"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "keyflow (>=1.1.1,<2.0.0)",
+    "keyboard (>=0.13.5,<0.14.0)",
+    "colorama (>=0.4.6,<0.5.0)",
+    "langchain-openai (>=0.3.31,<0.4.0)",
+    "langchain-core (>=0.3.74,<0.4.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
